@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "donutthanks",
+  "version": "${version}",
+  "name": "Donut Thanks",
+  "description": "Plays a custom full-screen animation with your own skin when someone pays you on DonutSMP (5M up to 100B).",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.donutthanks.DonutThanksClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.9",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
